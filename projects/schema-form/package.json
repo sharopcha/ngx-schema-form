@@ -3,7 +3,7 @@
   "version": "2.9.0",
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/sharopcha/ngx-schema-form"
+    "url": "https://github.com/sharopcha/ngx-schema-form"
   },
   "keywords": [
     "angular",
