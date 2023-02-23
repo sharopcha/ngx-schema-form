@@ -20,6 +20,7 @@ import { LogService } from './log.service';
   selector: 'sf-form-element',
   template: `
     <div *ngIf="formProperty.visible"
+          [id]="id"
          [class.has-error]="!control.valid"
          [class.has-success]="control.valid">
       <sf-widget-chooser
@@ -42,6 +43,8 @@ export class FormElementComponent implements OnInit, OnDestroy {
 
   unlisten = [];
 
+  id: string;
+
   constructor(private actionRegistry: ActionRegistry,
               private bindingRegistry: BindingRegistry,
               private renderer: Renderer2,
@@ -63,6 +66,8 @@ export class FormElementComponent implements OnInit, OnDestroy {
         }
       });
     }
+
+    this.id = this.formProperty.__canonicalPath.slice(1)
   }
 
   private createBinding(eventId, listeners) {
