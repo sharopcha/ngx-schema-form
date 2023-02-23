@@ -1,9 +1,9 @@
 {
-  "name": "ngx-schema-form",
+  "name": "ngx-custom-schema-form",
   "version": "2.9.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guillotinaweb/ngx-schema-form"
+    "url": "git+https://https://github.com/sharopcha/ngx-schema-form"
   },
   "keywords": [
     "angular",
@@ -13,7 +13,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/guillotinaweb/ngx-schema-form/issues"
+    "url": "https://https://github.com/sharopcha/ngx-schema-form/issues"
   },
   "contributors": [
     "Frank Bessou <fbessou@free.fr>",
@@ -21,7 +21,8 @@
     "Simon Bats <contact@simonbats.com>",
     "Gabor Pankotay <gabor.pankotay@swicon.hu>",
     "Juan Manuel Verges",
-    "Daniele Pecora <daniele.pecora@googlemail.com>"
+    "Daniele Pecora <daniele.pecora@googlemail.com>",
+    "Azizmatov Sharofiddin"
   ],
   "dependencies": {
     "tslib": "^2.0.0"
